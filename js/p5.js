@@ -4,7 +4,7 @@ let button;
 
 function setup() {
 
-  createCanvas(1440, 900, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
 
   ele = createAudio('music/hbd.mp3');
   ele.autoplay(true);
@@ -143,4 +143,8 @@ function mouseReleased() {
   } else {
     value = '#F09696';
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
