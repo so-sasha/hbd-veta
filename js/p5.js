@@ -9,7 +9,7 @@ function setup() {
   ele = createAudio('music/hbd.mp3');
   ele.autoplay(true);
 
-  button = createButton('happy birthday!');
+  button = createButton('->');
   button.position(19, 19);
   button.mousePressed();
 
@@ -56,6 +56,48 @@ function draw() {
   fill(240, 150, 150);
   rotateX(frameCount * 0.03);
   rotateZ(frameCount * 0.05);
+  torus(20, 10);
+
+  noStroke();
+  translate(mouseX - width/3, mouseY - height/3)
+  fill(240, 150, 150);
+  rotateX(frameCount * 0.05);
+  rotateZ(frameCount * 0.05);
+  torus(20, 10);
+
+  noStroke();
+  translate(mouseX - width/3, mouseY - height/3)
+  fill(240, 150, 150);
+  rotateX(frameCount * 0.01);
+  rotateZ(frameCount * 0.01);
+  torus(20, 10);
+
+  noStroke();
+  translate(mouseX - width/2.8, mouseY - height/2.8)
+  fill(240, 150, 150);
+  rotateX(frameCount * 0.03);
+  rotateZ(frameCount * 0.05);
+  torus(20, 10);
+
+  noStroke();
+  translate(mouseX - width/1.5, mouseY - height/1.5)
+  fill(240, 150, 150);
+  rotateX(frameCount * 0.02);
+  rotateZ(frameCount * 0.02);
+  torus(20, 10);
+
+  noStroke();
+  translate(mouseX - width/5, mouseY - height/5)
+  fill(240, 150, 150);
+  rotateX(frameCount * 0.03);
+  rotateZ(frameCount * 0.05);
+  torus(20, 10);
+
+  noStroke();
+  translate(mouseX - width/2.5, mouseY - height/2.5)
+  fill(240, 150, 150);
+  rotateX(frameCount * 0.04);
+  rotateZ(frameCount * 0.04);
   torus(20, 10);
 
 
