@@ -1,17 +1,11 @@
 let ele;
 
-let button;
-
 function setup() {
 
   createCanvas(windowWidth, windowHeight, WEBGL);
 
   ele = createAudio('music/hbd.mp3');
   ele.autoplay(true);
-
-  button = createButton('->');
-  button.position(19, 19);
-  button.mousePressed();
 
   frameRate(10);
 

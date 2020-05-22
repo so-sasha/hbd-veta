@@ -1,4 +1,5 @@
 @import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 @font-face {
   font-family: "mousie";
@@ -22,4 +23,20 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#next {
+  position: absolute;
+  color: #F09696;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vh;
+  right: 1.1vw;
+  top: 1.25vh;
+}
+
+.next {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
