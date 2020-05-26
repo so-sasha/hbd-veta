@@ -10,6 +10,15 @@ html {
   overflow: hidden;
 }
 
+a {
+  color: #F09696;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
 #hbd {
   position: absolute;
   color: #F09696;
