@@ -9,6 +9,8 @@ function setup() {
 
   frameRate(10);
 
+  noCursor();
+
 }
 
 let value = '#F09696';
